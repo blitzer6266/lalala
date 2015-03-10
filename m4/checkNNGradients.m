@@ -6,7 +6,7 @@ function checkNNGradients(lambda)
 %   produced by your backprop code and the numerical gradients (computed
 %   using computeNumericalGradient). These two gradient computations should
 %   result in very similar values.
-%
+% Newstuff
 
 if ~exist('lambda', 'var') || isempty(lambda)
     lambda = 0;
